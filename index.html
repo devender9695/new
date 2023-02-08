@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Testbook--Survey Form</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                TESTBOOK--SURVEY FORM
+            </h1>
+            <p id="desecription">Thanks For Visiting </p>
+        </header>
+        <form action="#" id="Survey-Form">
+            <div class="form-group">
+                <label for="name"> Name.<span>*</span></label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter Your First Name" required>
+               
+            </div>
+            <div class="form-group">
+                <label for="email">Email.<span>*</span></label>
+                <input class="formControl" type="email" name="email" id="email"  placeholder="Enter Your Email" required>  
+            </div>
+             <div class="form-group">
+                <label for="phone">Mobile no. <span>*</span></label>
+                <input class="formControl" type="number" name="number" id="number"  placeholder="Enter your mobile number" required>  
+            </div>
+
+ <div class="form-group">
+                <label for="address">Enter your address.<span>*</span></label>
+                <input class="formControl" type="address" name="address" id="address"  placeholder="Enter your address" required>  
+            </div>
+            <div class="form-group">
+                <p id="quest">Are you doing something in current ?.</p>
+                <select name="role" id="dropdown" class="formcontrol" required>
+                    <option value="current role">---Please select---</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">no</option>
+                </select>
+            </div>
+
+           
+            <div class="form-group">
+                <p id="quest">How Did You Know About TESTBOOK.<span>*</span></p>
+                <label for="Freinds">
+                    <input type="radio" name="source" value="Freinds" class="inputRadio">
+                    Freinds
+                </label>
+                <label for=" Social Media">
+                    <input type="radio" name="source" value="Social-Media" class="inputRadio" >
+                    Social Media
+                </label>
+                <label for=" Tv Ads">
+                    <input type="radio" name="source" value="Tv Ads" class="inputRadio" >
+                    Tv Ads
+                </label>
+                 <label for="Youtube">
+                    <input type="radio" name="source" value="Own-Self"  class="inputRadio" >
+                  Youtube
+                </label>
+
+            </div>
+            <div class="form-group">
+                <p id="quest">In which role are you looking for ?</p>
+                <label for="Backend-Developer">
+                    <input type="checkbox" class="checkbox" value="backend-developer">
+                      Backend-Developer
+                </label>
+                 <label for="Fronted-Developer">
+                    <input type="checkbox" class="checkbox" value="Fronted-developer">
+                      Fronted-Developer
+                </label>
+                <label for="React-Developer">
+                    <input type="checkbox" class="checkbox" value="React-developer">
+                      React-Developer
+                </label>
+                <label for="Js-Developer">
+                    <input type="checkbox" class="checkbox" value="Js-developer">
+                      Js-Developer
+                </label>
+                <label for="Full Stack-Developer">
+                    <input type="checkbox" class="checkbox" value="Full Stack-developer">
+                      Full Stack-Developer
+                </label>
+            </div>
+            <div class="form-group">
+                <p id="quest">Give Us Your Valuable Feedback. <span>*</span></p>
+                <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea" placeholder="Please enter your valuble feedback here...."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+  </div>
+</body>
+</html>
